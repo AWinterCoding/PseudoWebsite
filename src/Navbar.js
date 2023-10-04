@@ -1,9 +1,11 @@
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h2>This is a Nav Element</h2>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
+            <h1>Website Title</h1>
+            <a href="/"><p>Home</p></a>
+            <a href="/about"><p>About</p></a>
+            <a href="/location"><p>Location</p></a>
+            <a href="/contact"><p>Contact</p></a>
         </nav>
      );
 }
